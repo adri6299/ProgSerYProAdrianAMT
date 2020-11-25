@@ -14,17 +14,19 @@ public class main {
 		ProcessBuilder nuevoProceso = new ProcessBuilder();
 		Map<String, String> env = nuevoProceso.environment();
 
-		List<String> comandos = new ArrayList<String>();
+		List<String> comandosWindows = new ArrayList<String>();
 
-		comandos.add("cmd");
-		comandos.add("/c");
-		comandos.add("start");
-		comandos.add("firefox");
-
-		ProcessBuilder pb = new ProcessBuilder(comandos);
-		System.out.println(pb.command());
+		comandosWindows.add("cmd");
+		comandosWindows.add("/c");
+		comandosWindows.add("start");
+		comandosWindows.add("firefox");
+		
+		List<String> comandosLinux = new ArrayList<String>();
+		
+		comandosLinux.add("firefox");
 
 		try {
+			ProcessBuilder pb = new ProcessBuilder(comandosWindows);
 			pb.start();
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
