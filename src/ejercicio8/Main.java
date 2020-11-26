@@ -12,11 +12,11 @@ public class Main {
 		System.out.println(vbles);
 		
 		List<String> lCommand = new ArrayList<String>();
-		lCommand.add("CMD");
-		lCommand.add("/C");
-		lCommand.add("DIR");
+		lCommand.add("powershell.exe");
+		lCommand.add("ls -help");
 		
 		ProcessBuilder pb = new ProcessBuilder(lCommand);
+		System.out.println(pb.command());
 		
 		try {
 			pb.start();

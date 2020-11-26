@@ -19,11 +19,12 @@ public class main {
 		comandosWindows.add("cmd");
 		comandosWindows.add("/c");
 		comandosWindows.add("start");
-		comandosWindows.add("firefox");
+		comandosWindows.add("opera");
+		comandosWindows.add("www.google.es");
 		
 		List<String> comandosLinux = new ArrayList<String>();
 		
-		comandosLinux.add("firefox");
+		comandosLinux.add("firefox www.google.es");
 
 		try {
 			ProcessBuilder pb = new ProcessBuilder(comandosWindows);
