@@ -1,0 +1,3 @@
+Este es el archivo original.
+
+Esta es una nueva línea tras dos saltos de línea.
