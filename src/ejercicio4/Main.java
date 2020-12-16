@@ -1,6 +1,6 @@
 package ejercicio4;
 
-public class main {
+public class Main {
 	private static String OS = System.getProperty("os.name").toLowerCase();
 	
 	public static void main(String[] args) {

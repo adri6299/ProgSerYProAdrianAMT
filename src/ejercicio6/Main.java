@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
 
 import ejercicio3.Cadenas;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
 		Runtime rt = Runtime.getRuntime();

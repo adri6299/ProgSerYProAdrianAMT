@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-public class main {
+public class Main {
 	private static String OS = System.getProperty("os.name").toLowerCase();
 	
 	public static void main(String[] args) {

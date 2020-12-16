@@ -1,14 +1,11 @@
 package ejercicio1;
 
 import java.io.IOException;
-import java.util.Scanner;
 
 public class Main {
 	private static String OS = System.getProperty("os.name").toLowerCase();
 	private static final String NAVEGADOR = "firefox";
 	
-	
-	private static Scanner teclado = new Scanner (System.in);
 	
 	public static void main(String[] args) {
         String cmd = null;
